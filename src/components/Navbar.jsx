@@ -44,7 +44,7 @@ const Navbar = () => {
                 <Link to="/" className="flex items-center gap-2 text-2xl font-bold bg-gradient-to-r from-primary-600 to-secondary-500 bg-clip-text text-transparent">
                     <Code2 className="w-8 h-8 text-primary-500" />
                     <h1 className='text-secondary-600 dark:text-secondary-400'>Mohamett</h1>
-                    <span className='text-primary-600 dark:text-primary-400'>Abukar Hussein</span>
+                    <span className='text-primary-600 dark:text-primary-400'>Abukar</span>
                 </Link>
 
                 {/* Desktop Menu */}
@@ -119,11 +119,11 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
-                    <Link to="/contact" onClick={() => setIsOpen(false)}>
+                    {/* <Link to="/contact" onClick={() => setIsOpen(false)}>
                         <button className="w-full bg-primary-500 text-white py-3 rounded-xl font-medium shadow-md">
                             Hire Me
                         </button>
-                    </Link>
+                    </Link> */}
                 </motion.div>
             )}
         </nav>

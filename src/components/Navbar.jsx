@@ -74,12 +74,12 @@ const Navbar = () => {
                     >
                         {isDark ? <Sun size={20} /> : <Moon size={20} />}
                     </button>
-
+{/* 
                     <Link to="/contact">
                         <button className="bg-primary-500 hover:bg-primary-600 text-white px-5 py-2 rounded-full text-sm font-medium transition-all shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50">
                             Hire Me
                         </button>
-                    </Link>
+                    </Link> */}
                 </div>
 
                 {/* Mobile Toggle */}

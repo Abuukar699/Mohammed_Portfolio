@@ -119,11 +119,11 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
-                    <Link to="/contact" onClick={() => setIsOpen(false)}>
+                    {/* <Link to="/contact" onClick={() => setIsOpen(false)}>
                         <button className="w-full bg-primary-500 text-white py-3 rounded-xl font-medium shadow-md">
                             Hire Me
                         </button>
-                    </Link>
+                    </Link> */}
                 </motion.div>
             )}
         </nav>

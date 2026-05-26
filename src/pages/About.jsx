@@ -11,6 +11,7 @@ const About = () => {
         { name: 'Tailwind CSS', level: 'Expert' },
         { name: 'Node.js', level: 'Intermediate' },
         { name: 'UI/UX Design', level: 'Advanced' },
+        { name: 'Flutter Developer', level: 'Advanced' },
     ];
 
     return (

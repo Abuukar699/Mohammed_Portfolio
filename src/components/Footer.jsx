@@ -46,7 +46,7 @@ const Footer = () => {
                         <a href="mailto:abukarhussein93@gmail.com" className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-primary-500 hover:text-white transition-all">
                             <Mail size={20} />
                         </a>
-                        <a href="+252617909098" className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-primary-500 hover:text-white transition-all">
+                        <a href="https://web.whatsapp.com/" className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-primary-500 hover:text-white transition-all">
                             <Phone size={20}/>
                         </a>
                     </div>

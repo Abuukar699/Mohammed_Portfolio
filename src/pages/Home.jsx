@@ -21,7 +21,7 @@ const Home = () => {
                         <div className="inline-block px-4 py-1.5 mb-6 text-sm font-medium text-primary-600 dark:text-primary-300 bg-primary-50 dark:bg-primary-900/30 rounded-full border border-primary-100 dark:border-primary-800">
                             Hi I am
                         </div>
-                        <h1 className="typewriter text-4xl" >
+                        <h1 className="typewriter text-2xl" >
                             Mohamed Abuukar Hussein 
                             
                         </h1>
@@ -42,6 +42,27 @@ const Home = () => {
                                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                 </button>
                             </Link>
+
+                            {/* cv */}
+                            <button
+    onClick={() => window.open("/cv.pdf", "_blank")}
+    className="w-full sm:w-auto px-8 py-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-orange-200 dark:hover:border-primary-600 hover:bg-orange-500 dark:hover:bg-primary-900/20 rounded-full font-semibold transition-all flex items-center justify-center gap-2 group"
+>
+    View CV
+    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
                         </div>
 
                         <div className="mt-12 flex items-center gap-8 text-slate-500 dark:text-slate-400 text-sm font-medium">

@@ -32,12 +32,12 @@ const Home = () => {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact">
-                                <button className="w-full sm:w-auto px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white rounded-full font-semibold shadow-xl shadow-primary-500/30 hover:shadow-2xl hover:shadow-primary-500/40 transition-all transform hover:-translate-y-1">
+                                <button className="w-[240px] h-[90px] rounded-full sm:w-auto px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white rounded-full font-semibold shadow-xl shadow-primary-500/30 hover:shadow-2xl hover:shadow-primary-500/40 transition-all transform hover:-translate-y-1">
                                     Order Your Website
                                 </button>
                             </Link>
                             <Link to="/portfolio">
-                                <button className="w-full sm:w-auto px-8 py-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-primary-200 dark:hover:border-primary-600 hover:bg-primary-50 dark:hover:bg-primary-900/20 rounded-full font-semibold transition-all flex items-center justify-center gap-2 group">
+                                <button className=" w-[240px] h-[90px] rounded-full sm:w-auto px-8 py-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-primary-200 dark:hover:border-primary-600 hover:bg-primary-50 dark:hover:bg-primary-900/20 rounded-full font-semibold transition-all flex items-center justify-center gap-2 group">
                                     View Portfolio
                                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                 </button>
@@ -46,7 +46,7 @@ const Home = () => {
                             {/* cv */}
                             <button
     onClick={() => window.open("/cv.pdf", "_blank")}
-    className="w-full sm:w-auto px-8 py-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-orange-200 dark:hover:border-primary-600 hover:bg-orange-500 dark:hover:bg-primary-900/20 rounded-full font-semibold transition-all flex items-center justify-center gap-2 group"
+    className="w-[240px] h-[90px] rounded-full sm:w-auto px-8 py-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-orange-200 dark:hover:border-primary-600 hover:bg-orange-500 dark:hover:bg-primary-900/20 rounded-full font-semibold transition-all flex items-center justify-center gap-2 group"
 >
     View CV
     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

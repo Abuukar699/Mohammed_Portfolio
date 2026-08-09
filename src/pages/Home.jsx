@@ -21,9 +21,12 @@ const Home = () => {
                         <div className="inline-block px-4 py-1.5 mb-6 text-sm font-medium text-primary-600 dark:text-primary-300 bg-primary-50 dark:bg-primary-900/30 rounded-full border border-primary-100 dark:border-primary-800">
                             Hi I am
                         </div>
-                        <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 dark:text-white leading-tight mb-6">
-                            Mohamed Abuukar Hussein <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-500 hover:from-primary-500 hover:to-secondary-400 transition-all">Software</span>, Engineer
+                        <h1 className="typewriter text-4xl" >
+                            Mohamed Abuukar Hussein 
+                            
                         </h1>
+
+                        <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-500 hover:from-primary-500 hover:to-secondary-400 transition-all">Software Engineer</h2>
                         <p className="text-lg text-slate-600 dark:text-slate-300 mb-8 leading-relaxed max-w-lg">
                             I build professional, high-converting websites that help businesses grow. minimal design, maximum impact.
                         </p>

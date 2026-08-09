@@ -25,3 +25,28 @@
     @apply bg-white/80 backdrop-blur-sm border border-white/50 shadow-lg rounded-2xl hover:shadow-xl transition-all duration-300 dark:bg-slate-800/40 dark:border-white/5 dark:hover:bg-slate-800/60;
   }
 }
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+@keyframes blink{
+  50%{
+    border-radius: transparent;
+  }
+}
+.typewriter{
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  /* border-right: 3px solid black; */
+
+  animation: 
+  typing 4s steps(22) forwards,
+  blank 0.7s step-end infinite;
+}

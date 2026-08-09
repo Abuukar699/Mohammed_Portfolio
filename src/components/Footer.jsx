@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -46,12 +46,15 @@ const Footer = () => {
                         <a href="mailto:abukarhussein93@gmail.com" className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-primary-500 hover:text-white transition-all">
                             <Mail size={20} />
                         </a>
+                        <a href="+252617909098" className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-primary-500 hover:text-white transition-all">
+                            <Phone size={20}/>
+                        </a>
                     </div>
                 </div>
             </div>
 
             <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center text-sm text-slate-400">
-                <p>&copy; 2024 DevStudio. All rights reserved.</p>
+                <p>&copy; 2024 Designed and Built By Mohamed Abuukar Hussein.</p>
                 <div className="flex gap-6 mt-4 md:mt-0">
                     <a href="#" className="hover:text-slate-600">Privacy Policy</a>
                     <a href="#" className="hover:text-slate-600">Terms of Service</a>

@@ -41,10 +41,10 @@ const Navbar = () => {
         <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4">
             <div className="max-w-7xl mx-auto glass rounded-2xl px-6 py-3 flex justify-between items-center transition-colors duration-300">
                 {/* Logo */}
-                <Link to="/" className="flex items-center gap-2 text-2xl font-bold bg-gradient-to-r from-primary-600 to-secondary-500 bg-clip-text text-transparent">
-                    <Code2 className="w-8 h-8 text-primary-500" />
-                    <h1 className='text-secondary-600 dark:text-secondary-400'>Mohamett</h1>
-                    <span className='text-primary-600 dark:text-primary-400'>Abukar</span>
+                <Link to="/" className="flex items-center gap-2 text-2xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
+                    {/* <Code2 className="w-8 h-8 text-primary-500" /> */}
+                    <h1 className='text-secondary-600 dark:text-primary-600'>Mohamett</h1>
+                    <span className='text-primary-600 dark:text-primary-600'>Abukar</span>
                 </Link>
 
                 {/* Desktop Menu */}

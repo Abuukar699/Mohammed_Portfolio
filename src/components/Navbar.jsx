@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Code2, Sun, Moon } from 'lucide-react';
+import { Menu, X, Sun, Moon, ShieldCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Navbar = () => {
@@ -66,6 +66,14 @@ const Navbar = () => {
                         </Link>
                     ))}
 
+                    <Link
+                        to="/admin/login"
+                        title="Admin"
+                        className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                    >
+                        <ShieldCheck size={20} />
+                    </Link>
+
                     {/* Theme Toggle */}
                     <button
                         onClick={() => setIsDark(!isDark)}
@@ -119,6 +127,13 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
+                    <Link
+                        to="/admin/login"
+                        onClick={() => setIsOpen(false)}
+                        className="text-lg font-medium p-2 rounded-lg hover:bg-primary-50 text-primary-600 flex items-center gap-2"
+                    >
+                        <ShieldCheck size={18} /> Admin
+                    </Link>
                     {/* <Link to="/contact" onClick={() => setIsOpen(false)}>
                         <button className="w-full bg-primary-500 text-white py-3 rounded-xl font-medium shadow-md">
                             Hire Me

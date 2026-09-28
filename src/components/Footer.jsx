@@ -1,5 +1,6 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Github, Linkedin, Mail, Phone, ShieldCheck } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -27,10 +28,15 @@ const Footer = () => {
                 <div>
                     <h4 className="font-semibold text-slate-800 mb-4">Company</h4>
                     <ul className="space-y-2 text-sm text-slate-500">
-                        <li><a href="/about" className="hover:text-primary-500 transition-colors">About</a></li>
-                        <li><a href="/portfolio" className="hover:text-primary-500 transition-colors">Portfolio</a></li>
-                        <li><a href="/pricing" className="hover:text-primary-500 transition-colors">Pricing</a></li>
-                        <li><a href="/contact" className="hover:text-primary-500 transition-colors">Contact</a></li>
+                        <li><Link to="/about" className="hover:text-primary-500 transition-colors">About</Link></li>
+                        <li><Link to="/portfolio" className="hover:text-primary-500 transition-colors">Portfolio</Link></li>
+                        <li><Link to="/pricing" className="hover:text-primary-500 transition-colors">Pricing</Link></li>
+                        <li><Link to="/contact" className="hover:text-primary-500 transition-colors">Contact</Link></li>
+                        <li>
+                            <Link to="/admin/login" className="inline-flex items-center gap-1.5 hover:text-primary-500 transition-colors text-primary-600 font-medium">
+                                <ShieldCheck size={14} /> Admin login
+                            </Link>
+                        </li>
                     </ul>
                 </div>
 

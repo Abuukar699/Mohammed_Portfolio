@@ -71,7 +71,7 @@ const Navbar = () => {
                         title="Admin"
                         className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                     >
-                        <ShieldCheck size={20} />
+                        <ShieldCheck size={20}  />
                     </Link>
 
                     {/* Theme Toggle */}
